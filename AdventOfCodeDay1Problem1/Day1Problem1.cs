@@ -9,9 +9,9 @@ namespace AdventOfCode
     public class Day1Problem1 : IProblem
     {
         private List<string> input;
-        public Day1Problem1(List<string> input)
+        public Day1Problem1()
         {
-            this.input = input;
+            this.input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Problem1Input.txt")).ToList();
         }
 
         private int GetSum(List<string> list)
