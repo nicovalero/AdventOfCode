@@ -136,6 +136,10 @@ namespace AdventOfCode.Day3Problem2
         private List<Number> numbers;
         private List<Symbol> symbols;
 
+        public string ID()
+        {
+            return "Day 3 Problem 2";
+        }
         public Day3Problem2()
         {
             input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Day3Problem1Input.txt")).ToList();

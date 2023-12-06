@@ -108,6 +108,10 @@ namespace AdventOfCode
     public class Day2Problem1 : IProblem
     {
         private IRGBGameCollection collection;
+        public string ID()
+        {
+            return "Day 2 Problem 1";
+        }
         public Day2Problem1()
         {
             var input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Day2Problem1Input.txt")).ToList();

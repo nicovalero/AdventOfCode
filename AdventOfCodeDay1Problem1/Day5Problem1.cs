@@ -130,6 +130,10 @@ namespace AdventOfCode.Day5Problem1
 
         private Dictionary<PathCombination, Element> memory;
 
+        public string ID()
+        {
+            return "Day 5 Problem 1";
+        }
         public Day5Problem1()
         {
             input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Day5Problem1Input.txt")).ToList();

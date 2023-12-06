@@ -31,6 +31,10 @@ namespace AdventOfCode.Day4Problem1
         private List<HashSet<Number>> prizedNumbers;
         private List<List<Number>> playedNumbers;
 
+        public string ID()
+        {
+            return "Day 4 Problem 1";
+        }
         public Day4Problem1()
         {
             input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Day4Problem1Input.txt")).ToList();

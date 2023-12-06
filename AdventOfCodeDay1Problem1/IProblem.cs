@@ -8,6 +8,7 @@ namespace AdventOfCode
 {
     internal interface IProblem
     {
+        string ID();
         string SolveProblem();
     }
 }

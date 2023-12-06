@@ -9,6 +9,11 @@ namespace AdventOfCode
     public class Day1Problem1 : IProblem
     {
         private List<string> input;
+
+        public string ID()
+        {
+            return "Day 1 Problem 1";
+        }
         public Day1Problem1()
         {
             this.input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Problem1Input.txt")).ToList();

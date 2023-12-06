@@ -10,6 +10,11 @@ namespace AdventOfCode
     {
         private List<string> input;
         private Dictionary<string, int> dictionary;
+
+        public string ID()
+        {
+            return "Day 1 Problem 2";
+        }
         public Day1Problem2()
         {
             this.input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Problem1Input.txt")).ToList();

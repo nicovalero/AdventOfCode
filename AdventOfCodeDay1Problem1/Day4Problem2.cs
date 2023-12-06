@@ -155,6 +155,10 @@ namespace AdventOfCode.Day4Problem2
         private LinkedList<Card> cards;
         private PrizeCollection prizeCollection;
 
+        public string ID()
+        {
+            return "Day 4 Problem 2";
+        }
         public Day4Problem2()
         {
             input = File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, "../../../inputs/Day4Problem1Input.txt")).ToList();
